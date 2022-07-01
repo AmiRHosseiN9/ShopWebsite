@@ -1,0 +1,16 @@
+@charset "utf-8";
+/* CSS Document */
+.SignBox{
+	border: 2px solid #000000;
+	margin-top: 100px;
+	border-radius: 5px;
+}
+.InputBox{
+	background-color: #CCCCCC;
+}
+.headerText{
+	
+}
+.optimPadding input{
+	width: 175px;
+}

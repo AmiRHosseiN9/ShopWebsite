@@ -1,0 +1,71 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+	direction: rtl;
+	overflow-x: hidden;
+	overflow-y: hidden;
+	background-image: url("../img/61764.jpg");
+	background-repeat: no-repeat;
+	background-size: 100%;
+}
+.floating-label-group {
+	position: relative;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+.floating-label {
+	font-size: 13px;
+	color: #cccccc;
+	position: absolute;
+	pointer-events: none;
+	top: 9px;
+	right: 12px;
+	transition: all 0.1s ease;
+}
+
+input:focus ~ .floating-label,
+input:not(:focus):valid ~ .floating-label {
+	top: -25px;
+	bottom: 0px;
+	left: 0px;
+	font-size: 15px;
+    opacity: 1;
+	color: #404040;
+}
+
+.row {
+	margin-top: 50px;
+}
+.imgLog{
+	width: 100%;
+	
+}
+.posIcon1{
+	position: absolute;
+	top: 327px;
+	right: 155px;
+}
+.posIcon2{
+	position: absolute;
+	top: 393px;
+	right: 155px;
+}
+.inputPad{
+	padding: 0px 160px;
+}
+.btnsub{
+	border:solid 1px #FFFFFF; 
+	background-color: rgba(249,249,249,0.00);
+	color: #ffffff;
+	border-radius: 30px;
+}
+.btnsub:hover{
+	background-color: rgba(255,255,255,1.00);
+	color: rgba(0,0,0,1.00);
+}
+.inputCSS{
+	background-color: rgba(255,255,255,0.00)
+}
+
+
+

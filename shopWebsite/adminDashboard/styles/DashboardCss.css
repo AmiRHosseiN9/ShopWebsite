@@ -1,0 +1,54 @@
+@charset "utf-8";
+/* CSS Document */
+.backCT{
+	background-color: #4D77FF;
+	border-radius: 0px 0px 10px 10px;
+	height: 200px;
+}
+.backCR{
+	background-color: rgba(241,241,241,1.00);
+	border-radius: 0px 0px 0px 10px;
+	
+}
+.mainBC{
+	border-radius: 10px;
+	background-color: rgba(241,241,241,1.00);
+	width: 100%;
+	height: 400%;
+	
+}
+.iconBorder{
+	background-color: rgba(255,255,255,1.00);
+	box-shadow: 1px 1px 5px 1px rgba(159,159,159,1.00) ;
+	width: 40px;
+}
+.slideBPos{
+	padding-right: 140px;
+}
+.rightBD{
+	background-color: rgba(255,255,255,1.00);
+	border-radius: 10px;
+}
+.searchBox{
+	background-color:rgb(86, 187, 241,0.50);
+	border-radius: 30px;
+	box-shadow: 1px 1px 5px 1px rgba(159,159,159,1.00);
+}
+.searchBox::placeholder {
+	color: white;
+}
+.userBT{
+	background-color: rgb(86, 187, 241,0.70);
+	border-radius: 10px;
+	box-shadow: 1px 1px 5px 1px rgba(159,159,159,1.00);
+}
+.searchIconPos{
+	position: absolute;
+	right: 170px;
+	top: 33px;
+}
+.rightLinks{
+	text-decoration-line: none;
+	color: inherit;
+}
+

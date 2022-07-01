@@ -1,0 +1,74 @@
+@charset "utf-8";
+/* CSS Document */
+.heightimg img{
+	height: 150%;
+}
+
+.widthimg img{
+	width: 100%;
+	border-radius: 5px;
+		}
+.widthLogo img{
+	width: 25%;
+	background-color: white;
+}
+.bordering{
+	border: solid 2px #909090;
+	
+}
+
+.menuBotton a{
+	text-decoration-line: none;
+	color: inherit;
+}
+.TwoSugest{
+	width: 100%;
+}
+.bordering2{
+	
+	position: relative;
+	top: 350px;
+	background-color: #F1F1F1;
+}
+.borderTextNew{
+	border-right: solid 10px #FF0105;
+	border-bottom: solid 2px #909090;
+	background-color: #FFBBBC;
+}
+.inlineText{
+	display: inline;
+}
+.borderTextNew{
+	border-right: solid 10px #009EF7;
+	border-bottom: solid 2px #909090;
+	margin-bottom: 25px;
+	background-color: #C1FAFF;
+}
+.imgSize1{
+	width: 70%;
+	position: absolute;
+	top: 0px;
+	right: 0px;
+}
+.imgSize2{
+	width: 50%;
+	position: absolute;
+	top: 200px;
+	right: 250px;
+	z-index: 1;
+}
+.slideButton{
+	
+	position: absolute;
+	left: 1310px;
+	top: 250px;
+}
+.slideMenuRight{
+	position: absolute;
+	bottom: 514px;
+	left: 1500px;
+	transition: 1s;
+}
+.footerUl ul{
+	list-style-type: none;
+}

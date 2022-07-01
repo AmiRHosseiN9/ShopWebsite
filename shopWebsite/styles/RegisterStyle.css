@@ -1,0 +1,59 @@
+@charset "utf-8";
+/* CSS Document */
+body,div,label,input,select,option{
+	font-family: b yekan,tahoma;
+}
+.registerBox{
+	background-color: #CFCFCF;
+	padding: 15px;
+	border: 2px solid #4A4A4A;
+	border-radius: 8px;
+	margin: 10px auto;
+	width: 370px;
+	
+}
+.registerFormBox div{
+	padding: 5px;
+}
+.registerBox input[type=text]{
+	width: 90%;
+}
+.registerBox input[type=file]{
+	width: 100%;
+}
+.registerBox select{
+	width: 100%;
+}
+.registerBox input[type=password]{
+	width: 90%;
+}
+.registerBox input[type=email]{
+	width: 100%;
+}
+.registerBox input[type=submit]{
+	background-color: #4AB846;
+	width: 100px;
+	padding: 8px;
+	border-radius: 3px;
+}
+.registerBox input[type=reset]{
+	background-color: #D4080B;
+	width: 100px;
+	padding: 8px;
+	border-radius: 3px;
+}
+i{
+	width: 500px;
+	position: absolute;
+	left: 5px;
+	top: 448px;
+}
+.ShowPassStyle{
+	color: inherit;
+}
+.HidePassStyle{
+	color: inherit;
+	display: none;
+}
+
+
